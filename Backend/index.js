@@ -1,5 +1,6 @@
 import express from 'express';
 import mongoose from 'mongoose';
+import users from './Routes/users.js'
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
