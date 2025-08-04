@@ -5,4 +5,5 @@ import {handleuserlogin,handleuserregistration}  from '../Controller/handleuser.
 const router=express.Router();
 router.post('/register', handleuserregistration);
 router.post('/login',handleuserlogin);
+
 export default router;
